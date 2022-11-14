@@ -22,7 +22,7 @@ public class NewOrder {
 			}
 			System.out.println("Sucesso enviado " + data.topic());
 		}).get();
-	}
+	} 
 
 	private static Properties properties() {
 		var properties = new Properties();
